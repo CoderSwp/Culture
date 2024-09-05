@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna Culture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="temples-slideshow.css">
+    <link rel="stylesheet" href="timeline.css">
+    <link rel="stylesheet" href="map.css">
+    <script src="timeline.js"></script>
+    <script src="temple-slideshow.js"></script>
+
+
+</head>
+<body>
+    <!-- this is header-->
+    <div class="header">
+        <video autoplay muted loop class="video-background">
+            <source src="/assets/vids/video2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <nav>
+            <div class="logo"><h2>APNA CULTURE</h2></div>
+            <ul>
+                <li><a href="/timeline/">History</a></li>
+                <li><a href="#arts">Arts</a></li>
+                <li><a href="#cuisine">Cuisine</a></li>
+                <li><a href="#festivals">Festivals</a></li>
+                <li><a href="#monuments">Monuments</a></li>
+                <li><a href="/app/index.html">Quiz</a></li>
+            </ul>
+            <script>
+                window.addEventListener('scroll', function() {
+                const nav = document.querySelector('nav');
+                if (window.scrollY > 50) { // Change 50 to the scroll position where you want the effect to start
+                nav.classList.add('scrolled');
+                } else {
+                nav.classList.remove('scrolled');
+                }
+                });
+            </script>
+        </nav>
+
+        <div class="content">
+            <h1>Explore Our Rich Culture</h1>
+            <center><p>India is a country dotted with stunning wildlife diversity, and rich traditions.</p></center>
+            <br>
+            <button><a href="#" alt="">Read More</a></button>
+        </div>
+    </div>
+
+
+        <!-- This is for the slideshow section-->
+        <div class="container">
+            <h1>Check out some temples!!</h1>
+            <div class="card__container">
+               <article class="card__article">
+                  <img src="/assets/pics/Ayodhya Mandir.jpg"  alt="image" class="card__img">
+   
+                  <div class="card__data">
+                     <span class="card__description">Ayodhya, Uttar Pradesh, India</span>
+                     <h2 class="card__title"><h2>Ayodhya Mandir</h2>
+                     <a href="#" class="card__button">Read More</a>
+                  </div>
+               </article>
+   
+               <article class="card__article">
+                  <img src="/assets/pics/Jagannatha Mandir.jpg"  alt="image" class="card__img"></img>
+   
+                  <div class="card__data">
+                     <span class="card__description">Poori, Odissa, India</span>
+                     <h2 class="card__title"><h2>Jagannatha Mandir</h2>
+                     <a href="#" class="card__button">Read More</a>
+                  </div>
+               </article>
+   
+               <article class="card__article">
+                  <img src="/assets/pics/Meenakshi Temple.jpg" alt="image" class="card__img">
+   
+                  <div class="card__data">
+                     <span class="card__description">Madurai, Tamil Nadu, India</span>
+                     <h2 class="card__title"><h2>Meenakshi Mandir</h2>
+                     <a href="#" class="card__button">Read More</a>
+                  </div>
+
+                
+            </div>
+         </div>
+
+
+
+
+         
+
+
+        
+        
+
+
+
+
+         <footer style="background-color: #333333; color: #eee; padding: 40px 0; font-family: Arial, sans-serif; width: 100%">
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+                <!-- Section 1: Logo and Tagline -->
+                <div style="flex: 1; min-width: 200px; text-align: center; margin-bottom: 20px;">
+                    <h1>APNA CULTURE</h1>
+                    <p style="margin-top: 10px;">             "Preserving India's Cultural Essence"</p>
+                </div>
+        
+                <!-- Section 2: Quick Links -->
+                <div style="flex: 1; min-width: 200px; text-align: center; margin-bottom: 20px;">
+                    <h4 style="margin-bottom: 10px;">Quick Links</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="#about" style="color: #eee; text-decoration: none;">About Us</a></li>
+                        <li><a href="#temples" style="color: #eee; text-decoration: none;">Temples</a></li>
+                        <li><a href="#history" style="color: #eee; text-decoration: none;">History</a></li>
+                        <li><a href="#contact" style="color: #eee; text-decoration: none;">Contact</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Section 3: Contact Information -->
+                <div style="flex: 1; min-width: 200px; text-align: center; margin-bottom: 20px;">
+                    <h4 style="margin-bottom: 10px;">Contact Us</h4>
+                    <p>Email: info@heritageofindia.com</p>
+                    <p>Phone: +91 12345 67890</p>
+                    <p>Location: New Delhi, India</p>
+                </div>
+        
+                <!-- Section 4: Social Media Links -->
+                <div style="flex: 1; min-width: 200px; text-align: center; margin-bottom: 20px;">
+                    <h4 style="margin-bottom: 10px;">Follow Us</h4>
+                    
+                    </div>
+                </div>
+            </div>
+            <!-- Section 5: Copyright and Legal -->
+            <div style="text-align: center; margin-top: 30px; border-top: 1px solid #444; padding-top: 20px;">
+                <p>&copy; 2024 Heritage of India. All Rights Reserved. | <a href="#privacy" style="color: #eee; text-decoration: none;">Privacy Policy</a></p>
+            </div>
+        </footer>
+
+        <!-- this section is for map-->
+        
+       
+            
+        
+   
+</body>
+</html>
